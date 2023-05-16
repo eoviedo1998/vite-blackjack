@@ -28,7 +28,7 @@ import { Player } from "./classes/player";
       player.cards.forEach((card) => {
         let image = document.createElement('img');
         image.className = "w-25 d-inline-block card";
-        image.src = `/images/cards/${card.figure}${card.suit}.png`;
+        image.src = `./images/cards/${card.figure}${card.suit}.png`;
         cardsContainers[index].append(image);
       });
     });
